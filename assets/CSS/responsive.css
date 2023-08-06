@@ -1,0 +1,81 @@
+/* Media Query 1200px */
+@media (max-width:1200px) {
+    .banner-title{
+        font-size: 3.9rem;
+    }
+    .banner-subtitle{
+        font-size: 1.6rem;
+    }
+    .doctors-title{
+        font-size: 1.5rem;
+    }
+}
+
+/* Media Query 992px */
+@media (max-width:992px) {
+    .section-subtitle{
+        font-size: 1.5rem;
+    }
+    .footer-info p, .footer-links li a, .footer-info2 li{
+        font-size: 1.2rem;
+    }
+    .social-links i{
+        font-size: 2.4rem;
+    }
+}
+
+/* Media Query 768px */
+@media (max-width:768px) {
+    .social-links i{
+        font-size: 2rem;
+    }
+    .section-subtitle{
+        font-size: 1.3rem;
+    }
+    .copyright{
+        font-size: 1.5rem;
+    }
+    .copyright .copy{
+        font-size: 2.5rem;
+    }
+    #footer .footer-section .footer-newsletter form input[type="email"]{
+        width: 130px;
+        font-size: 1.5rem;
+        background: transparent;
+      }
+      #footer .footer-section .footer-newsletter form input[type='submit']{
+        width: 77px;  
+        font-size: 1.5rem;
+        color: var(--text-gray);
+      }
+}
+
+/* Media Query 576px */
+@media (max-width:576px) {
+    .section-subtitle{
+        font-size: 1.3rem;
+        letter-spacing: -0.3px;
+    }
+    .banner-title{
+        font-size: 2.6rem;
+    }
+    .banner-subtitle{
+        font-size: 1.2rem;
+    }
+    .contact-section .address, .contact-section .email, .contact-section .phone{
+        margin-left: 70px;
+    }
+    .copyright{
+        font-size: 1.3rem;
+    }
+    .copyright .copy{
+        font-size: 2rem;
+    }
+    .back-to-top{
+        width: 30px;
+        height: 30px;
+    }
+    .back-to-top i{
+        font-size: 20px;
+    }
+}

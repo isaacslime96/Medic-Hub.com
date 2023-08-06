@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medic-Hub</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="assets/CSS/responsive.css">
+   
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Ysabeau+SC:wght@300;400;600;800;1000&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+  
+    <!-- Navbar Section Start -->
+      <nav class="navbar navbar-expand-lg fixed-top py-1 bg-success section">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold" href="#">Medic-<span style="color: var(--secondary-color);">Hub</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-stream bg-dark text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#doctors">Medical-Experts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a class="btn btn-dark text-white fw-bold fs-3 rounded-4" style="font-family: var(--primary-font);" href="#appointment">Appointment &raquo;</a>
+        </div>
+      </nav>
+
+      <!-- Banner Section Start -->
+       <section id="home" class="banner-section w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mt-5">
+              <h1 class="banner-title">WELCOME TO <span class="text-white" style="font-family: var(--primary-font); font-weight: 800;"><span>Medic-</span><span style="color: var(--secondary-color);">Hub</span></span> HEALTHCARE</h1>
+              <p class="banner-subtitle">Elevating Health and Empowering Lives Through Innovative Healthcare <br> Solutions by Transforming Healthcare into a Healthier Future.</p>
+              <a class="btn btn-dark fw-bold fs-2 rounded-4 mt-5" style="font-family: var(--primary-font);" href="#features">Learn More &raquo;</a>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- Banner Section End -->
+    <!-- Navbar Section End -->
+
+    <!-- Features Section Start -->
+       <div id="features" class="features-section bg-body section">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/checkup.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-heart-pulse text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title features-title mt-2">Medical Checkup</h1>
+                  <p class="card-text features-subtitle">Prioritize Your Health for a Stronger Future by Preserving Your Vitality Through Medical Checkup for a Lifetime of Wellness.</p>
+                  <!-- <a class="btn btn-dark fw-bold fs-5 rounded-4" href="#">Find out more &raquo;</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/blood.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-flask-vial text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title features-title mt-2">Blood Test</h1>
+                  <p class="card-text features-subtitle">Unlocking the Complete Health of Red Blood Cells by Exploring Your Health, Decoding Your Health Through Accurate Blood Test.</p>
+                  <!-- <a class="btn btn-dark fw-bold fs-5 rounded-4" href="#">Find out more &raquo;</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/temperature.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-temperature-high text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title features-title mt-2">Body Temperature</h1>
+                  <p class="card-text features-subtitle">Unlocking Exact Body Temperature Degrees by Monitoring Body Temperature and Unveil the Secrets Hidden in Body Temperature.</p>
+                  <!-- <a class="btn btn-dark fw-bold fs-5 rounded-4" href="#">Find out more &raquo;</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/medicine.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-hand-holding-medical text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title features-title mt-2">Medicine Usage</h1>
+                  <p class="card-text features-subtitle">Prioritize the Healing Power of Medications Through Proper Usage by Unlocking the Benefits of Effective Medicine Usage.</p>
+                  <!-- <a class="btn btn-dark fw-bold fs-5 rounded-4" href="#">Find out more &raquo;</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    <!-- Features Section End -->
+
+    <!-- About Us Section Start -->
+       <section id="about" class="about-section text-center section">
+        <div class="container">
+          <h1 class="section-title text-success">About Us</h1>
+          <p class="section-subtitle">Welcome to <span style="font-family: var(--primary-font); font-weight: bold; font-size: 2.5rem;">Medic-<span class="text-dark">Hub</span></span>, We are dedicated to providing accurate and up-to-date information on various health contents to help individuals make adequate decisions about their wellness and our mission is to promote health awareness, nurture extensive understanding of medical conditions, offer valuable knowledge into preventive measures, medication preference, general healthcare management with a team of competent healthcare professionals we aim to deliver accurate and trustworthy contents that are backed by scientific evidence and expert knowledge. We believe that knowledge is the key to help individuals take control of their health through our contents, guides, resources, general healthcare management and we aim to simplify complicated medical concepts to provide accurate information that can positively impact your wellness.</p>
+          
+          <div class="row">
+            <div class="col-lg-6 col-md-12 d-flex">
+              <img src="assets/img/about.jpg" class="rounded-4 img-thumbnai bg-success mt-3" alt="" style="clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);">
+            </div>
+
+            <div class="col-lg-6 col-md-12 icon-box d-flex flex-column justify-content-center align-items-stretch py-4">
+              <div class="icon-box">
+                <div class="iconi ms-3"><i class="fa-sharp fa-regular fa-heart"></i></div>
+                <h4 class="text-success text-start ms-3">Health Is Happiness</h4>
+                <p>Discovering the Treasures of Wellness by Investing in Your Health and Unlocking the Riches of a Healthy Life.</p>
+              </div>
+
+              <div class="icon-box mt-5">
+                <div class="iconi ms-3"><i class="fa-solid fa-kit-medical"></i></div>
+                <h4 class="text-success text-start ms-3">Emergency</h4>
+                <p>Emergency  Services at Your Fingertips with Rapid Response and Urgent Care in Critical Moments.</p>
+              </div>
+
+              <div class="icon-box mt-5">
+                <div class="iconi ms-3"><i class="fa-regular fa-circle-question"></i></div>
+                <h4 class="text-success text-start ms-3">Services</h4>
+                <p>Empowering Wellness with Tailored Health Services to Elevate Your Life Putting Your Health First.</p>
+              </div>
+            </div>
+        </div>
+       </section>
+    <!-- About Us Section End -->
+
+    <!-- Service Section Start -->
+       <div id="services" class="services-section section">
+        <div class="container">
+          <h1 class="section-title text-success text-center">Services</h1>
+          <p class="section-subtitle text-center">Your Journey to Better Health Starts Here and Your Wellness is Our Priority.</p>
+          <div class="row mt-1 gy-5">
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/telemedicine.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-users text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title services-title mt-2">Telemedicine</h1> 
+                  <p class="card-text services-subtitle">With the new development of technology, this medical service enables patients to access healthcare treatment remotely using electronic information and technology.</p>
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/about.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fas fa-user-md text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title services-title mt-2">Doctors & Nurses</h1> 
+                  <p class="card-text services-subtitle">The medical staffs are a diverse team of Healthcare Experts that includes doctors, nurses, therapists and support staffs all working together to help patients.</p>
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/rehabitation.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-hospital text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title services-title mt-2">Rehabilitation</h1> 
+                  <p class="card-text services-subtitle">This medical service always organize Rehabilitation Programs to restore patients abnormal health to normal health through tranning and therapy.</p>
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="card border-success rounded-4" style="background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.6)), url(assets/img/surgery.jpg) no-repeat center/cover;">
+                <div class="card-body">
+                  <i class="fa-solid fa-truck-medical text-success" style="font-size: 4rem;"></i>
+                  <h1 class="card-title services-title mt-2">Surgery</h1> 
+                  <p class="card-text services-subtitle">This is a very crucial service to patients for treating injuries, diseases and deformities by physical removal, repair or readjustment of organs and tissues.</p>
+                </div>  
+              </div>
+            </div>
+
+            <div id="appointment" class="appointment-section border border-dark rounded-4 section">
+              <div class="container">
+                <h1 class="section-title text-success text-center">Make An Appointment</h1>
+                <p class="section-subtitle text-center">Your Wellness Starts Here by Scheduling Your Appointment in Minutes.</p>
+                <form target="_blank" action="https://formsubmit.co/isaacbiobaku1@gmail.com" method="POST" class="row gy-5 needs-validation mt-1" novalidate>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustom01" class="form-label fs-5 fw-bold">Full Name</label>
+                    <input type="text" class="form-control border bg-success border-success" id="validationCustom01" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustom02" class="form-label fs-5 fw-bold">Email-Address</label>
+                    <input type="text" class="form-control bg-success border border-success" id="validationCustom02" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustomUsername" class="form-label fs-5 fw-bold">Phone Number</label>
+                    <div class="input-group has-validation">
+                      <input type="text" class="form-control bg-success border border-success" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                      <div class="invalid-feedback">
+                        Please provide Your Number.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustom03" class="form-label fs-5 fw-bold">Appointment Date</label>
+                    <input type="text" class="form-control bg-success border border-success" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                      Please provide a date.
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustom04" class="form-label fs-5 fw-bold">Age</label>
+                    <select name="age" id="age" class="form-select bg-success border border-success">
+                      <option value="">Select Age</option>
+                      <option value="age 1">below 18</option>
+                      <option value="age 2">18 -49</option>
+                      <option value="age 3">50 above</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide your age.
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <label for="validationCustom05" class="form-label fs-5 fw-bold">Medical-Experts</label>
+                    <select name="doctor" id="doctor" class="form-select bg-success border border-success">
+                      <option value="">Select Doctor</option>
+                      <option value="Expert 1">Dr Michael Mcvey</option>
+                      <option value="Expert 2">Chief Nurse Annabella Clinton</option>
+                      <option value="Expert 3">Neurosurgeon Aaron Laswell</option>
+                      <option value="Expert 3">Anesthesiologist Keith Karolina</option>
+                      <option value="Expert 3">Therapist Edward Ferreras</option>
+                      <option value="Expert 3">Cardiologist Rozan Tong</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please choose a doctor.
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="validationCustom03" class="form-label fs-5 fw-bold">Message (optional)</label>
+                    <textarea class="form-control border bg-success border-success fw-bold fs-5" name="message" rows="10" required></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button class="btn btn-outline-dark text-white rounded-4 fs-3 fw-bold border-success" type="submit" style="font-family: var(--primary-font);">Make An Appointment &raquo;</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>              
+       </div>
+    <!-- Count Section End -->
+
+    <!-- Doctors Section Start -->
+       <section id="doctors" class="doctors-section text-center section">
+        <div class="container">
+          <h1 class="section-title text-success">Medical-Experts</h1>
+          <p class="section-subtitle text-center">Here, we take Great Pride in Introducing You to Our Diverse Team of Healthcare Experts.</p>
+          <div class="row border border-dark rounded-4 mt-5 gy-5 p-5">
+            <div class="col-md-4 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/1.jpg" alt="">
+                 <h4 class="doctors-title">Michael Mcvey</h4>
+                 <span class="doctors-subtitle text-success">Chief Physician</span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/2.jpg" alt="">
+                 <h4 class="doctors-title">Annabella Clinton</h4>
+                 <span class="doctors-subtitle text-success">Chief Nurse Executive</span>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/3.jpg" alt="">
+                 <h4 class="doctors-title">Aaron Laswell</h4>
+                 <span class="doctors-subtitle text-success">Neurosurgeon</span>
+            </div>
+
+            <div class="col-md-5 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/4.jpg" alt="">
+                 <h4 class="doctors-title">Keith Karolina</h4>
+                 <span class="doctors-subtitle text-success">Anesthesiologist</span>        
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/5.jpg" alt="">
+                 <h4 class="doctors-title">Edward Ferreras</h4>
+                 <span class="doctors-subtitle text-success">Therapist</span>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                 <img class="rounded-4" width="180px" height="120px" src="assets/img/6.jpg" alt="">
+                 <h4 class="doctors-title">Rozan Tong</h4>
+                 <span class="doctors-subtitle text-success">Cardiologist</span>
+            </div>
+          </div>
+        </div>
+       </section>
+    <!-- Doctors Section End -->
+
+     <!-- Contact Section Start -->
+     <section id="contact" class="contact-section section">
+      <div class="container">
+        <h1 class="section-title text-success text-center">Contact</h1>
+        <p class="section-subtitle text-center">Get in Touch for Exceptional Healthcare and Support Your Wellness.</p>
+
+        <!-- Google-Map -->
+        <div class="mapouter"><div class="gmap_canvas rounded-4 mt-5"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jericho oxford, Uk&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+
+        <div class="row border border-dark rounded-4 mt-5">
+          <div class="col-lg-4 col-md-5 col-sm-6 mt-3">
+            <div class="address" style="margin-top: 20px;">
+              <div class="iconi ms-3"><i class="fa-sharp fa-solid fa-location-dot"></i></div> 
+              <h4 class="contact-title text-success">Location:</h4>
+              <p class="contact-subtitle">Jericho Road, 0xford, UK</p>
+            </div>
+            <div class="email" style="margin-top: 45px;">
+              <div class="iconi ms-3"><i class="fa-sharp fa-solid fa-envelope"></i></div> 
+              <h4 class="contact-title text-success">Email:</h4>
+              <p class="contact-subtitle">medic-hub@gmail.com</p>
+            </div>
+            <div class="phone" style="margin-top: 50px;">
+              <div class="iconi ms-3"><i class="fa-sharp fa-solid fa-mobile"></i></div> 
+              <h4 class="contact-title text-success">Phone-no:</h4>
+              <p class="contact-subtitle">+44 1865 293187</p>
+            </div>
+          </div>
+
+        <div class="col-lg-8 col-md-7 col-sm-6 mt-5 mt-lg-0 mt-5">
+          <form target="_blank" action="https://formsubmit.co/isaacbiobaku1@gmail.com" method="POST" class="mt-5 needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control fs-5 fw-bold border border-success" id="name" placeholder="Your Name"required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" name="email" class="form-control fs-5 fw-bold border border-success" id="email" placeholder="Your Email"required>
+              </div>
+              <div class="col-md-12 form-group mt-3">
+                <input type="text" name="subject" class="form-control fs-5 fw-bold border border-success" id="subject" placeholder="Subject"required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea name="message" rows="5" class="form-control fs-5 fw-bold border border-success" placeholder="Message (optional)"></textarea>
+              </div>  
+              <div class="text-center">
+                <button class="btn btn-outline-dark text-white rounded-4 fs-3 fw-bold border-success mt-5 mb-5" type="submit" style="font-family: var(--primary-font);">Send Message &raquo;</button>
+              </div>
+            </div> 
+          </form>
+        </div>
+      </div>
+      </div>
+     </section>
+     <!-- Contact Section End -->
+     <!-- End Of Main -->
+
+     <!-- Footer Section Start-->
+     <footer id="footer" class="footer-section text-center bg-dark">
+      <div class="footer-section">
+        <div class="container border border-secondary rounded-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-4">
+              <div class="footer-info mt-3">
+                <h4>Medic-<span style="color: var(--secondary-color);">Hub</span></h4>
+                <p>Jericho Road, 0xford, UK <br>
+                <strong>Email: </strong>medic-hub@gmail.com <br>
+                <strong>Phone: </strong>+44 1865 293187 <br>
+              </p>
+
+              <div class="social-links mt-2">
+                <a href="#"><i class="fa-brands fa-linkedin m-1"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook m-1"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube m-1"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram m-1"></i></a>
+                <a href="#"><i class="fa-brands fa-skype m-1"></i></a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-4">
+              <div class="footer-links mt-3">
+                <h4>Useful-links</h4>
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#doctors">Medical-Experts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-4">
+              <div class="footer-info2 mt-3">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="#appointment">Appointment</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#">Privacy Policy</a></li>  
+                  <li><a href="#">Terms & Conditions</a></li> 
+                  <li><a href="#">FAQs</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-newsletter mt-3 mb-5">
+                <h4>Our-Newsletter</h4>
+                <p>Subscribe for Our Health Tips & Updates.</p>
+                <form action="https://formsubmit.co/isaacbiobaku1@gmail.com" method="POST">
+                  <input class="border border-success bg-white text-dark fw-bold" type="email" name="email" placeholder="Email-Address"> <input class="border border-success bg-dark fw-bold" type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="container text-center">
+        <div class="copyright mt-5">
+          <span class="copy">&copy;</span> <span style="font-family: var(--secondary-font);">2023</span> <strong>Medic-<span style="color: var(--secondary-color);">Hub</span></strong>. <span style="font-family: var(--secondary-font);">All Right Reserved.</span>
+        </div>
+      </div>
+     </footer>
+     <!-- Footer Section End -->
+
+     <!-- Preloader -->
+     <div class="preloader">
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center active rounded-4">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+      </a>
+     </div>
+
+    
+
+    
+   
+
+
+
+
+    <!-- bootstrap JS -->
+    <script src="assets/JS/app.js"></script>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
